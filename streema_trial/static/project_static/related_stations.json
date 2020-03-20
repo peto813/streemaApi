@@ -1,0 +1,3105 @@
+{
+	"meta": {
+		"total_count": 28,
+		"offset": 0,
+		"limit": 28,
+		"previous": null,
+		"next": null
+	},
+	"objects": [{
+		"band": "FM",
+		"city": {
+			"id": 2,
+			"name": "São Paulo",
+			"resource_uri": "/api/v1/city/2/",
+			"slug": "Sao_Paulo",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "São Paulo",
+				"id": 411,
+				"resource_uri": "/api/v1/state/411/",
+				"short_name": "SP",
+				"slug": "Sao_Paulo"
+			}
+		},
+		"created": "2009-02-12T02:49:49",
+		"dial": "100.9",
+		"genres": [{
+			"family": "Pop",
+			"id": 6,
+			"name": "Adult Contemporary",
+			"resource_uri": "/api/v1/genre/6/",
+			"slug": "Adult_Contemporary"
+		}, {
+			"family": "Pop",
+			"id": 44,
+			"name": "Pop",
+			"resource_uri": "/api/v1/genre/44/",
+			"slug": "Pop"
+		}, {
+			"family": "Latin",
+			"id": 282,
+			"name": "Sertanejo",
+			"resource_uri": "/api/v1/genre/282/",
+			"slug": "Sertanejo"
+		}, {
+			"family": "Pop",
+			"id": 60,
+			"name": "Top 40",
+			"resource_uri": "/api/v1/genre/60/",
+			"slug": "Top"
+		}],
+		"id": 11,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/7e/03/7e033d2be218a6335eabcf46adc48bc7.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/36/ae/36ae5353b97275d4593c1a13595fd44a.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/71/99/71991ec7d22993ac1f2531ac9746bba5.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/38/d8/38d88128d4d97023a5a3bd892f5b7e7f.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/9b/84/9b84caf67511ada2c2fa44018320e7e1.jpg"
+		},
+		"modified": "2020-03-06T16:07:09",
+		"name": "Jovem Pan FM",
+		"popularity": 120,
+		"slug": "Jovem_Pan",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 443148,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://playerservices.streamtheworld.com/api/livestream-redirect/JP_SP_FMAAC.aac",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 443149,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://15903.live.streamtheworld.com:80/JP_SP_FMAAC_SC",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 443149,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://15903.live.streamtheworld.com:3690/JP_SP_FMAAC_SC",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": null,
+			"container": null,
+			"content_type": "unknown",
+			"enabled": true,
+			"format": null,
+			"id": 443149,
+			"last_test_result": "worked",
+			"media_type": "other",
+			"protocol": null,
+			"rate": 0,
+			"testing_enabled": true,
+			"url": "http://20593.live.streamtheworld.com:80/JP_SP_FMAAC_SC",
+			"works": false
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 79,
+			"name": "Rio de Janeiro",
+			"resource_uri": "/api/v1/city/79/",
+			"slug": "Rio_de_Janeiro",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "Rio de Janeiro",
+				"id": 697,
+				"resource_uri": "/api/v1/state/697/",
+				"short_name": "RJ",
+				"slug": "Rio_de_Janeiro"
+			}
+		},
+		"created": "2012-10-24T14:22:13",
+		"dial": "98.1",
+		"genres": [{
+			"family": "Talk",
+			"id": 42,
+			"name": "News",
+			"resource_uri": "/api/v1/genre/42/",
+			"slug": "News"
+		}, {
+			"family": "Talk",
+			"id": 56,
+			"name": "Sports",
+			"resource_uri": "/api/v1/genre/56/",
+			"slug": "Sports"
+		}, {
+			"family": "Talk",
+			"id": 57,
+			"name": "Talk",
+			"resource_uri": "/api/v1/genre/57/",
+			"slug": "Talk"
+		}],
+		"id": 54786,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/23/c0/23c05656b961cbcf9c21b65f369e98b6.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/04/3c/043ca5873a49daa6063ae8e4d55bf7b8.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/a0/da/a0da320a1b29b66b9847834ceb4e1920.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/55/44/5544dbd7c248473fd8d1a21501d9cacb.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/6f/3e/6f3e089233aeef9446a939d7bf6f8af8.jpg"
+		},
+		"modified": "2020-03-01T16:10:30",
+		"name": "Rádio Globo",
+		"popularity": 0,
+		"slug": "Radio_Globo_FM_Rio_de_Janeiro",
+		"streams": [{
+			"bitrate": null,
+			"codec": null,
+			"container": null,
+			"content_type": "application/x-mpegURL",
+			"enabled": true,
+			"format": null,
+			"id": 608168,
+			"isFile": false,
+			"last_test_result": "worked",
+			"media_type": null,
+			"protocol": "hls",
+			"testing_enabled": true,
+			"url": "http://medias.sgr.globo.com/hls/aRGloboRJ/aRGloboRJ.m3u8",
+			"works": true
+		}]
+	}, {
+		"band": "AM",
+		"city": {
+			"id": 57,
+			"name": "Curitiba",
+			"resource_uri": "/api/v1/city/57/",
+			"slug": "Curitiba",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "Paraná",
+				"id": 452,
+				"resource_uri": "/api/v1/state/452/",
+				"short_name": "PR",
+				"slug": "Parana"
+			}
+		},
+		"created": "2009-07-04T03:18:17",
+		"dial": "1060",
+		"genres": [{
+			"family": "Religion",
+			"id": 79,
+			"name": "Christian",
+			"resource_uri": "/api/v1/genre/79/",
+			"slug": "Christian"
+		}, {
+			"family": "Religion",
+			"id": 96,
+			"name": "Gospel",
+			"resource_uri": "/api/v1/genre/96/",
+			"slug": "Gospel"
+		}, {
+			"family": "Religion",
+			"id": 48,
+			"name": "Religious",
+			"resource_uri": "/api/v1/genre/48/",
+			"slug": "Religious"
+		}],
+		"id": 8775,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/a5/57/a557c8db39ecb799d8701daf86b01749.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/77/9b/779bb301b64569908d9d691ea287002c.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/2e/5e/2e5e147a09e77f642599865a3e742015.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/d9/fe/d9fe59ca4ba6d89947b9aa24413fe176.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/e5/bb/e5bb0d1cd383c499d05071eaacd3298a.jpg"
+		},
+		"modified": "2020-03-01T11:05:19",
+		"name": "Rádio Evangelizar",
+		"popularity": 1140,
+		"slug": "Radio_Evangelizar",
+		"streams": [{
+			"bitrate": 40,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 355618,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 24,
+			"testing_enabled": true,
+			"url": "http://108.61.77.3:8002/stream/2/;;",
+			"works": true
+		}, {
+			"bitrate": 40,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 355618,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 24,
+			"testing_enabled": true,
+			"url": "http://108.61.77.3:8064/stream/2/;",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 355619,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://108.61.77.3:8002/;;",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 355619,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://108.61.77.3:8064/;",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 355619,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://108.61.77.3:8006/stream/2/;",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 559193,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://evanam.crossradio.com.br:8002/stream/;",
+			"works": true
+		}]
+	}, {
+		"band": "AM",
+		"city": {
+			"id": 2,
+			"name": "São Paulo",
+			"resource_uri": "/api/v1/city/2/",
+			"slug": "Sao_Paulo",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "São Paulo",
+				"id": 411,
+				"resource_uri": "/api/v1/state/411/",
+				"short_name": "SP",
+				"slug": "Sao_Paulo"
+			}
+		},
+		"created": "2012-10-24T14:22:12",
+		"dial": "1100",
+		"genres": [{
+			"family": "Talk",
+			"id": 42,
+			"name": "News",
+			"resource_uri": "/api/v1/genre/42/",
+			"slug": "News"
+		}, {
+			"family": "Talk",
+			"id": 56,
+			"name": "Sports",
+			"resource_uri": "/api/v1/genre/56/",
+			"slug": "Sports"
+		}, {
+			"family": "Talk",
+			"id": 57,
+			"name": "Talk",
+			"resource_uri": "/api/v1/genre/57/",
+			"slug": "Talk"
+		}],
+		"id": 54783,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/97/78/97781d46c26d050ceb00429dfa6e9408.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/d8/79/d8791d24771f4f9f2e9a4647666c9e40.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/20/c3/20c3a3d78b6abae33e38f2afed01efeb.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/58/73/5873d6eeb222a49c0d03ff9ad65b0343.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/8a/90/8a90303bdf49838d44be99bea2bdadc6.jpg"
+		},
+		"modified": "2020-03-01T16:10:30",
+		"name": "Rádio Globo",
+		"popularity": 0,
+		"slug": "Radio_Globo_AM_Sao_Paulo",
+		"streams": [{
+			"bitrate": 64,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 240184,
+			"is_external": false,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 22,
+			"testing_enabled": false,
+			"url": "http://mob.sgr.globo.com:9000/igamsp",
+			"works": true
+		}, {
+			"bitrate": 49,
+			"codec": "aac",
+			"container": "unknown",
+			"content_type": "audio/x-aac",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 341070,
+			"isfile": false,
+			"last_test_result": "failed",
+			"media_type": "audio",
+			"protocol": "rtmp",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "rtmp://media.sgr.globo.com:1935/RadioGloboRD/gamsp.sdp",
+			"works": true
+		}, {
+			"bitrate": 54,
+			"codec": "aac",
+			"container": null,
+			"content_type": "audio/x-aac",
+			"enabled": true,
+			"format": null,
+			"id": 341071,
+			"isFile": false,
+			"last_test_result": "failed",
+			"media_type": null,
+			"protocol": "hls",
+			"testing_enabled": true,
+			"url": "http://media.sgr.globo.com:1935/RadioGloboRD/gamsp.sdp/playlist.m3u8",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 5911,
+			"name": "New York City",
+			"resource_uri": "/api/v1/city/5911/",
+			"slug": "New_York_City_NY",
+			"state": {
+				"country": {
+					"id": 153,
+					"is_state_divided": true,
+					"name": "United States",
+					"region_id": 1,
+					"resource_uri": "/api/v1/country/153/",
+					"slug": "United_States",
+					"use_state_in_city_name": true
+				},
+				"full_name": "New York",
+				"id": 6,
+				"resource_uri": "/api/v1/state/6/",
+				"short_name": "NY",
+				"slug": "New_York"
+			}
+		},
+		"created": "2008-10-03T22:39:51",
+		"dial": "97.9",
+		"genres": [{
+			"family": "Latin",
+			"id": 288,
+			"name": "Bachata",
+			"resource_uri": "/api/v1/genre/288/",
+			"slug": "Bachata"
+		}, {
+			"family": "Latin",
+			"id": 106,
+			"name": "Merengue",
+			"resource_uri": "/api/v1/genre/106/",
+			"slug": "Merengue"
+		}, {
+			"family": "Latin",
+			"id": 112,
+			"name": "Reggaeton",
+			"resource_uri": "/api/v1/genre/112/",
+			"slug": "Reggaeton"
+		}, {
+			"family": "Latin",
+			"id": 52,
+			"name": "Salsa",
+			"resource_uri": "/api/v1/genre/52/",
+			"slug": "Salsa"
+		}, {
+			"family": "Latin",
+			"id": 136,
+			"name": "Tropical",
+			"resource_uri": "/api/v1/genre/136/",
+			"slug": "Tropical"
+		}],
+		"id": 2408,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/2c/d3/2cd36a075b9f33eb4e8be2476e912617.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/5a/c0/5ac0be7d96895612a5d2dd2aba3b83a0.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/24/e0/24e04d56cda0d100a6006112aeff1e00.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/ae/f7/aef73306bbeca90d915738658add085a.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/91/17/91178dd97755cfb03cb1e03942b6da7a.jpg"
+		},
+		"modified": "2020-03-01T09:52:16",
+		"name": "La Mega 97.9 - WSKQ-FM",
+		"popularity": 630,
+		"slug": "La_Mega_979_fm",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 577616,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 48,
+			"testing_enabled": true,
+			"url": "http://35.185.200.128/sbsystems-wskqfmaac-imc1?session-id=0fb887d7f31fdd4e30358515bd55270b&source=streema",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 577616,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 48,
+			"testing_enabled": true,
+			"url": "http://35.233.215.147/sbsystems-wskqfmaac-imc1?session-id=0fb887d7f31fdd4e30358515bd55270b&source=streema",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 577616,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 48,
+			"testing_enabled": true,
+			"url": "http://35.247.81.27/sbsystems-wskqfmaac-imc1?session-id=0fb887d7f31fdd4e30358515bd55270b&source=streema",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 2,
+			"name": "São Paulo",
+			"resource_uri": "/api/v1/city/2/",
+			"slug": "Sao_Paulo",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "São Paulo",
+				"id": 411,
+				"resource_uri": "/api/v1/state/411/",
+				"short_name": "SP",
+				"slug": "Sao_Paulo"
+			}
+		},
+		"created": "2007-09-10T18:17:27",
+		"dial": "94.7",
+		"genres": [{
+			"family": "Rock",
+			"id": 68,
+			"name": "Classic Rock",
+			"resource_uri": "/api/v1/genre/68/",
+			"slug": "Classic_Rock"
+		}, {
+			"family": "Pop",
+			"id": 30,
+			"name": "Hits",
+			"resource_uri": "/api/v1/genre/30/",
+			"slug": "Hits"
+		}, {
+			"family": null,
+			"id": 220,
+			"name": "Music",
+			"resource_uri": "/api/v1/genre/220/",
+			"slug": "Music"
+		}, {
+			"family": "Pop",
+			"id": 44,
+			"name": "Pop",
+			"resource_uri": "/api/v1/genre/44/",
+			"slug": "Pop"
+		}, {
+			"family": "RnB",
+			"id": 46,
+			"name": "RnB",
+			"resource_uri": "/api/v1/genre/46/",
+			"slug": "RnB"
+		}],
+		"id": 443,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/90/fd/90fd598702be745175fcd5e14d48f8c6.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/d3/f7/d3f773c64dc959323fb41cd5d481274f.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/1d/a2/1da20e91aaad8cbd53a4f793501d4bf5.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/36/ad/36ad8d60cecbb7793c2844d9d41bda6e.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/33/e3/33e33d8a8e014be7270932d96732054b.jpg"
+		},
+		"modified": "2020-03-01T09:36:02",
+		"name": "Antena 1",
+		"popularity": 660,
+		"slug": "Antena",
+		"streams": [{
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 341506,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://5.135.83.159:80/stream2/;",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 341513,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 32,
+			"testing_enabled": true,
+			"url": "http://5.135.83.159:80/stream/;",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 341514,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 32,
+			"testing_enabled": true,
+			"url": "http://5.135.83.159:80/stream3/;",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 341517,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 32,
+			"testing_enabled": true,
+			"url": "http://antena1.newradio.it/;stream;",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 341519,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 32,
+			"testing_enabled": true,
+			"url": "http://antena1.newradio.it/stream/;",
+			"works": true
+		}, {
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 341520,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://51.254.29.39:80/stream2/;",
+			"works": true
+		}, {
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 341520,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://51.254.29.40:80/stream2/;",
+			"works": true
+		}, {
+			"bitrate": 96,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 341521,
+			"isfile": false,
+			"last_test_result": "failed",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://51.254.29.101:80/stream2/;",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 308,
+			"name": "Porto Alegre",
+			"resource_uri": "/api/v1/city/308/",
+			"slug": "Porto_Alegre",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "Rio Grande do Sul",
+				"id": 691,
+				"resource_uri": "/api/v1/state/691/",
+				"short_name": "RS",
+				"slug": "Rio_Grande_do_Sul"
+			}
+		},
+		"created": "2012-10-24T14:21:51",
+		"dial": "93.7",
+		"genres": [{
+			"family": "Talk",
+			"id": 42,
+			"name": "News",
+			"resource_uri": "/api/v1/genre/42/",
+			"slug": "News"
+		}, {
+			"family": "Talk",
+			"id": 56,
+			"name": "Sports",
+			"resource_uri": "/api/v1/genre/56/",
+			"slug": "Sports"
+		}, {
+			"family": "Talk",
+			"id": 57,
+			"name": "Talk",
+			"resource_uri": "/api/v1/genre/57/",
+			"slug": "Talk"
+		}],
+		"id": 54734,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/bb/89/bb8916cb5274495e984bdff85f8a3867.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/fd/31/fd31e9bf0c78eb47b5d3d8a0f25b73f4.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/33/be/33bed301a27c3cdfe41e56779def2718.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/ac/fa/acfad799251d6046433e533c7810a63a.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/7c/3e/7c3e4d904f3946bbb9beaa47acee417e.jpg"
+		},
+		"modified": "2020-03-01T16:10:27",
+		"name": "Rádio Gaúcha",
+		"popularity": 30,
+		"slug": "Radio_Gaucha_FM_93.7_FM",
+		"streams": [{
+			"bitrate": 1000,
+			"codec": null,
+			"container": null,
+			"content_type": "application/x-mpegURL",
+			"enabled": true,
+			"format": null,
+			"id": 559195,
+			"isFile": false,
+			"last_test_result": "worked",
+			"media_type": null,
+			"protocol": "hls",
+			"testing_enabled": true,
+			"url": "http://1132747t.ha.azioncdn.net/primary/gaucha_rbs.sdp/playlist.m3u8",
+			"works": true
+		}, {
+			"bitrate": null,
+			"codec": null,
+			"container": null,
+			"content_type": "application/x-mpegURL",
+			"enabled": true,
+			"format": null,
+			"id": 566734,
+			"isFile": false,
+			"last_test_result": "worked",
+			"media_type": null,
+			"protocol": "hls",
+			"testing_enabled": true,
+			"url": "http://1132747t.ha.azioncdn.net/primary/gaucha_rbs.sdp/chunklist_25ccab00-4725-4a3f-939d-c20508b16780.m3u8",
+			"works": true
+		}]
+	}, {
+		"band": "Web",
+		"city": {
+			"id": 52,
+			"name": "Washington",
+			"resource_uri": "/api/v1/city/52/",
+			"slug": "Washington_DC",
+			"state": {
+				"country": {
+					"id": 153,
+					"is_state_divided": true,
+					"name": "United States",
+					"region_id": 1,
+					"resource_uri": "/api/v1/country/153/",
+					"slug": "United_States",
+					"use_state_in_city_name": true
+				},
+				"full_name": "DC",
+				"id": 12,
+				"resource_uri": "/api/v1/state/12/",
+				"short_name": "DC",
+				"slug": "DC"
+			}
+		},
+		"created": "2009-02-12T02:49:49",
+		"dial": "",
+		"genres": [{
+			"family": "Community",
+			"id": 84,
+			"name": "Culture",
+			"resource_uri": "/api/v1/genre/84/",
+			"slug": "Culture"
+		}, {
+			"family": "Theme",
+			"id": 170,
+			"name": "Entertainment",
+			"resource_uri": "/api/v1/genre/170/",
+			"slug": "Entertainment"
+		}, {
+			"family": "Talk",
+			"id": 42,
+			"name": "News",
+			"resource_uri": "/api/v1/genre/42/",
+			"slug": "News"
+		}, {
+			"family": "Talk",
+			"id": 45,
+			"name": "Public",
+			"resource_uri": "/api/v1/genre/45/",
+			"slug": "Public"
+		}, {
+			"family": "Talk",
+			"id": 57,
+			"name": "Talk",
+			"resource_uri": "/api/v1/genre/57/",
+			"slug": "Talk"
+		}],
+		"id": 226,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/0f/ea/0feab6541872608dbc6d3bcaf60ad098.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/21/27/212767d41c5e5f0a13640d90060d4b3e.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/5a/40/5a40618c3594b70ad9187e63aa0f3f71.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/5d/73/5d73846a317e70cad7e4fd8080f9a188.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/49/cd/49cdd0822d5ab08f4270379783944633.jpg"
+		},
+		"modified": "2020-03-01T09:33:41",
+		"name": "NPR",
+		"popularity": 60,
+		"slug": "NPR_National_Public_Radio",
+		"streams": [{
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 581311,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 48,
+			"testing_enabled": true,
+			"url": "http://npr-ice.streamguys1.com/live.mp3",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 581314,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 48,
+			"testing_enabled": true,
+			"url": "http://npr-ice.streamguys1.com/live.aac",
+			"works": true
+		}, {
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 581332,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 48,
+			"testing_enabled": true,
+			"url": "http://50.31.133.252:80/live.mp3",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 2,
+			"name": "São Paulo",
+			"resource_uri": "/api/v1/city/2/",
+			"slug": "Sao_Paulo",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "São Paulo",
+				"id": 411,
+				"resource_uri": "/api/v1/state/411/",
+				"short_name": "SP",
+				"slug": "Sao_Paulo"
+			}
+		},
+		"created": "2009-07-04T03:27:45",
+		"dial": "95.3",
+		"genres": [{
+			"family": "Language",
+			"id": 185,
+			"name": "Brazilian",
+			"resource_uri": "/api/v1/genre/185/",
+			"slug": "Brazilian"
+		}, {
+			"family": "Country",
+			"id": 21,
+			"name": "Country",
+			"resource_uri": "/api/v1/genre/21/",
+			"slug": "Country"
+		}, {
+			"family": "Pop",
+			"id": 30,
+			"name": "Hits",
+			"resource_uri": "/api/v1/genre/30/",
+			"slug": "Hits"
+		}, {
+			"family": "Pop",
+			"id": 44,
+			"name": "Pop",
+			"resource_uri": "/api/v1/genre/44/",
+			"slug": "Pop"
+		}, {
+			"family": "Latin",
+			"id": 282,
+			"name": "Sertanejo",
+			"resource_uri": "/api/v1/genre/282/",
+			"slug": "Sertanejo"
+		}],
+		"id": 13095,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/7b/09/7b09a5cf0a4ce042c0b9d9188b25b4eb.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/8a/4b/8a4bbcb2d64e2ba63dcd616bb347c99d.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/90/3b/903b791b5c3ae06bc3cd9d7b2bbab6ab.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/73/5e/735e63e8cf32157a3a7eb16a3b5c19d9.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/5b/d2/5bd2e9dcb3c49d2c186b6fa4ddceea80.jpg"
+		},
+		"modified": "2020-03-01T11:53:39",
+		"name": "Nativa FM São Paulo",
+		"popularity": 30,
+		"slug": "NATIVA_FM_2",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "unknown",
+			"content_type": "audio/x-aac",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 441781,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "rtmp",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "rtmp://evpp.mm.uol.com.br/band/nativa_sp",
+			"works": true
+		}, {
+			"bitrate": 65,
+			"codec": "aac",
+			"container": null,
+			"content_type": "audio/x-aac",
+			"enabled": true,
+			"format": null,
+			"id": 441782,
+			"isFile": false,
+			"last_test_result": "failed",
+			"media_type": null,
+			"protocol": "hls",
+			"testing_enabled": true,
+			"url": "http://evpp.mm.uol.com.br/band/nativa_sp/playlist.m3u8",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 2,
+			"name": "São Paulo",
+			"resource_uri": "/api/v1/city/2/",
+			"slug": "Sao_Paulo",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "São Paulo",
+				"id": 411,
+				"resource_uri": "/api/v1/state/411/",
+				"short_name": "SP",
+				"slug": "Sao_Paulo"
+			}
+		},
+		"created": "2009-02-12T02:49:49",
+		"dial": "100.1",
+		"genres": [{
+			"family": "Pop",
+			"id": 6,
+			"name": "Adult Contemporary",
+			"resource_uri": "/api/v1/genre/6/",
+			"slug": "Adult_Contemporary"
+		}, {
+			"family": "Pop",
+			"id": 44,
+			"name": "Pop",
+			"resource_uri": "/api/v1/genre/44/",
+			"slug": "Pop"
+		}, {
+			"family": "Latin",
+			"id": 282,
+			"name": "Sertanejo",
+			"resource_uri": "/api/v1/genre/282/",
+			"slug": "Sertanejo"
+		}, {
+			"family": "Pop",
+			"id": 60,
+			"name": "Top 40",
+			"resource_uri": "/api/v1/genre/60/",
+			"slug": "Top"
+		}],
+		"id": 100,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/2e/65/2e6509a6c74b790f5301170ad9eede97.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/5b/fc/5bfc8acf121d4c2b2c856a9863c71abc.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/97/2a/972a9b6ae9712e2859f1a706b8070411.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/d8/0b/d80b3f0436dceb9d2395b197b697c610.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/fd/00/fd0006a2852b72d79d7c01747ff15853.jpg"
+		},
+		"modified": "2020-03-01T09:31:58",
+		"name": "Rádio Transamérica São Paulo",
+		"popularity": 60,
+		"slug": "Transamerica_Pop",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 500012,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://transamerica.crossradio.com.br:9100/stream/;",
+			"works": true
+		}]
+	}, {
+		"band": "AM",
+		"city": {
+			"id": 1,
+			"name": "Buenos Aires",
+			"resource_uri": "/api/v1/city/1/",
+			"slug": "Buenos_Aires",
+			"state": {
+				"country": {
+					"id": 6,
+					"is_state_divided": true,
+					"name": "Argentina",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/6/",
+					"slug": "Argentina",
+					"use_state_in_city_name": false
+				},
+				"full_name": "Buenos Aires",
+				"id": 144,
+				"resource_uri": "/api/v1/state/144/",
+				"short_name": "Buenos Aires",
+				"slug": "Buenos_Aires"
+			}
+		},
+		"created": "2009-02-12T02:49:49",
+		"dial": "590",
+		"genres": [{
+			"family": "Talk",
+			"id": 42,
+			"name": "News",
+			"resource_uri": "/api/v1/genre/42/",
+			"slug": "News"
+		}, {
+			"family": "Talk",
+			"id": 56,
+			"name": "Sports",
+			"resource_uri": "/api/v1/genre/56/",
+			"slug": "Sports"
+		}, {
+			"family": "Talk",
+			"id": 57,
+			"name": "Talk",
+			"resource_uri": "/api/v1/genre/57/",
+			"slug": "Talk"
+		}],
+		"id": 210,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/36/fa/36fa3ec092c50d1009d63b78a8d2f8c4.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/7e/25/7e2554fc276f9c479ae7227a72477fd3.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/56/ef/56ef88b4917e32c81fba36167f4c3459.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/c1/b5/c1b5bc0d0ac7a2b6a5e77d5b6740b21d.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/61/f8/61f81f57be260a054eb71d6922bb7f21.jpg"
+		},
+		"modified": "2020-03-01T09:33:32",
+		"name": "Radio Continental",
+		"popularity": 2340,
+		"slug": "Continental",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 268587,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://14933.live.streamtheworld.com:80/CONTINENTALAAC_SC",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 268587,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://14933.live.streamtheworld.com:3690/CONTINENTALAAC_SC",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 268587,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://18223.live.streamtheworld.com:80/CONTINENTALAAC_SC",
+			"works": true
+		}, {
+			"bitrate": 48,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 144265,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 22,
+			"testing_enabled": true,
+			"url": "http://20823.live.streamtheworld.com:80/CONTINENTAL_SC",
+			"works": true
+		}, {
+			"bitrate": 48,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 144265,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 22,
+			"testing_enabled": true,
+			"url": "http://20823.live.streamtheworld.com:3690/CONTINENTAL_SC",
+			"works": true
+		}, {
+			"bitrate": 48,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 144265,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 22,
+			"testing_enabled": true,
+			"url": "http://20283.live.streamtheworld.com:80/CONTINENTAL_SC",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 598470,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://playerservices.streamtheworld.com/api/livestream-redirect/CONTINENTALAAC.aac",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 1260,
+			"name": "Belo Horizonte",
+			"resource_uri": "/api/v1/city/1260/",
+			"slug": "Belo_Horizonte",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "Minas Gerais",
+				"id": 692,
+				"resource_uri": "/api/v1/state/692/",
+				"short_name": "MG",
+				"slug": "Minas_Gerais"
+			}
+		},
+		"created": "2014-06-11T11:43:07",
+		"dial": "99.1",
+		"genres": [{
+			"family": "Pop",
+			"id": 6,
+			"name": "Adult Contemporary",
+			"resource_uri": "/api/v1/genre/6/",
+			"slug": "Adult_Contemporary"
+		}, {
+			"family": "Pop",
+			"id": 44,
+			"name": "Pop",
+			"resource_uri": "/api/v1/genre/44/",
+			"slug": "Pop"
+		}, {
+			"family": "Latin",
+			"id": 282,
+			"name": "Sertanejo",
+			"resource_uri": "/api/v1/genre/282/",
+			"slug": "Sertanejo"
+		}, {
+			"family": "Pop",
+			"id": 60,
+			"name": "Top 40",
+			"resource_uri": "/api/v1/genre/60/",
+			"slug": "Top"
+		}],
+		"id": 93930,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/c5/eb/c5ebe0b51efb2756b3963a004eb6a9af.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/ea/b8/eab837b498a75bc7840300e74eecda1e.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/86/23/8623eb4b0a10f8f832af4a38841c105c.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/41/da/41da1fc8f5f65bb55404c9bbdd4f562d.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/0a/7b/0a7b236077482017fa2d5a03b5e7a03c.jpg"
+		},
+		"modified": "2020-03-01T18:30:59",
+		"name": "Jovem Pan Belo Horizonte",
+		"popularity": 30,
+		"slug": "Radio_Jovem_Pan_FM_Bello_Horizonte",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 562610,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://8a3c.live.upx.net.br:8036/stream.aac?type=.flv",
+			"works": true
+		}, {
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 454887,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://8a3c.live.upx.net.br:8036/stream.mp3",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 454889,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://8a3c.live.upx.net.br:8036/stream.aac",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 2,
+			"name": "São Paulo",
+			"resource_uri": "/api/v1/city/2/",
+			"slug": "Sao_Paulo",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "São Paulo",
+				"id": 411,
+				"resource_uri": "/api/v1/state/411/",
+				"short_name": "SP",
+				"slug": "Sao_Paulo"
+			}
+		},
+		"created": "2009-07-04T03:22:14",
+		"dial": "90.9",
+		"genres": [{
+			"family": "Language",
+			"id": 185,
+			"name": "Brazilian",
+			"resource_uri": "/api/v1/genre/185/",
+			"slug": "Brazilian"
+		}, {
+			"family": "Talk",
+			"id": 42,
+			"name": "News",
+			"resource_uri": "/api/v1/genre/42/",
+			"slug": "News"
+		}, {
+			"family": "Talk",
+			"id": 56,
+			"name": "Sports",
+			"resource_uri": "/api/v1/genre/56/",
+			"slug": "Sports"
+		}, {
+			"family": "Talk",
+			"id": 57,
+			"name": "Talk",
+			"resource_uri": "/api/v1/genre/57/",
+			"slug": "Talk"
+		}],
+		"id": 10172,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/6c/d2/6cd2b8aa2647b20620dc791db03c587e.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/fb/08/fb081297c0a0df2b7d83cd8cf3541431.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/8c/5c/8c5c583931872069f911887fce118f90.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/a7/a8/a7a8cc06186cd8bd4a80555e733aecaa.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/9f/c8/9fc87ae2236cd5aa09361c1bcafab4af.jpg"
+		},
+		"modified": "2020-03-01T11:20:25",
+		"name": "Rádio Bandeirantes",
+		"popularity": 60,
+		"slug": "Radio_Bandeirantes_3",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "unknown",
+			"content_type": "audio/x-aac",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 441634,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "rtmp",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "rtmp://evpp.mm.uol.com.br/band/radiobandeirantes_sp",
+			"works": true
+		}, {
+			"bitrate": 65,
+			"codec": "aac",
+			"container": null,
+			"content_type": "audio/x-aac",
+			"enabled": true,
+			"format": null,
+			"id": 441635,
+			"isFile": false,
+			"last_test_result": "failed",
+			"media_type": null,
+			"protocol": "hls",
+			"testing_enabled": true,
+			"url": "http://evpp.mm.uol.com.br/band/radiobandeirantes_sp/playlist.m3u8",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 79,
+			"name": "Rio de Janeiro",
+			"resource_uri": "/api/v1/city/79/",
+			"slug": "Rio_de_Janeiro",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "Rio de Janeiro",
+				"id": 697,
+				"resource_uri": "/api/v1/state/697/",
+				"short_name": "RJ",
+				"slug": "Rio_de_Janeiro"
+			}
+		},
+		"created": "2009-07-04T03:28:19",
+		"dial": "96.5",
+		"genres": [{
+			"family": "Talk",
+			"id": 42,
+			"name": "News",
+			"resource_uri": "/api/v1/genre/42/",
+			"slug": "News"
+		}, {
+			"family": "Talk",
+			"id": 56,
+			"name": "Sports",
+			"resource_uri": "/api/v1/genre/56/",
+			"slug": "Sports"
+		}, {
+			"family": "Talk",
+			"id": 57,
+			"name": "Talk",
+			"resource_uri": "/api/v1/genre/57/",
+			"slug": "Talk"
+		}],
+		"id": 13469,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/a3/dd/a3dd80bdf7fe811ac7ea06a3d1017bfd.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/ad/ed/adedab0d371140d17b37341b75a44ba2.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/97/85/97856d0aa9835a69b0a9911337f85f1d.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/88/da/88dadf40896fd0fec8ae5321f4782222.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/c7/56/c7565711925dfd866afe8342f2c5de88.jpg"
+		},
+		"modified": "2020-03-05T15:00:20",
+		"name": "Super Rádio Tupi",
+		"popularity": 0,
+		"slug": "Super_Radio_Tupi_FM",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 573871,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://8923.brasilstream.com.br/mp3",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 565395,
+			"isfile": false,
+			"last_test_result": "failed",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 32,
+			"testing_enabled": true,
+			"url": "http://52.116.26.132:8000/;;",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 79,
+			"name": "Rio de Janeiro",
+			"resource_uri": "/api/v1/city/79/",
+			"slug": "Rio_de_Janeiro",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "Rio de Janeiro",
+				"id": 697,
+				"resource_uri": "/api/v1/state/697/",
+				"short_name": "RJ",
+				"slug": "Rio_de_Janeiro"
+			}
+		},
+		"created": "2009-07-04T03:13:54",
+		"dial": "100.5",
+		"genres": [{
+			"family": "Pop",
+			"id": 6,
+			"name": "Adult Contemporary",
+			"resource_uri": "/api/v1/genre/6/",
+			"slug": "Adult_Contemporary"
+		}, {
+			"family": "Pop",
+			"id": 44,
+			"name": "Pop",
+			"resource_uri": "/api/v1/genre/44/",
+			"slug": "Pop"
+		}, {
+			"family": "RnB",
+			"id": 46,
+			"name": "RnB",
+			"resource_uri": "/api/v1/genre/46/",
+			"slug": "RnB"
+		}, {
+			"family": "Rock",
+			"id": 49,
+			"name": "Rock",
+			"resource_uri": "/api/v1/genre/49/",
+			"slug": "Rock"
+		}, {
+			"family": "Latin",
+			"id": 282,
+			"name": "Sertanejo",
+			"resource_uri": "/api/v1/genre/282/",
+			"slug": "Sertanejo"
+		}],
+		"id": 5846,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/83/a3/83a3eee0cda4bcf86002d3007bc8fd37.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/67/b0/67b08d1f58f608c8de61dd8e02983d8d.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/c3/ea/c3eaec671528d65da58ec0f785f1d653.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/98/74/9874d788ce862ed46ce1998bde8f218d.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/71/06/7106d08917545b1b5de2c3db9664f889.jpg"
+		},
+		"modified": "2020-03-01T10:30:32",
+		"name": "FM O Dia",
+		"popularity": 30,
+		"slug": "Radio_Fm_O_Dia",
+		"streams": [{
+			"bitrate": 66,
+			"codec": "aac",
+			"container": null,
+			"content_type": "audio/x-aac",
+			"enabled": true,
+			"format": null,
+			"id": 469907,
+			"isFile": false,
+			"last_test_result": "worked",
+			"media_type": null,
+			"protocol": "hls",
+			"testing_enabled": true,
+			"url": "http://c2901-slbps-sambavideos.akamaized.net/radio/FMoDiaAudio_14d480346fa04ebcb4f03173f2dae707/livestream/playlist.m3u8",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 11726,
+			"name": "Port-au-Prince",
+			"resource_uri": "/api/v1/city/11726/",
+			"slug": "Port_au_Prince",
+			"state": {
+				"country": {
+					"id": 62,
+					"is_state_divided": false,
+					"name": "Haiti",
+					"region_id": 2,
+					"resource_uri": "/api/v1/country/62/",
+					"slug": "Haiti",
+					"use_state_in_city_name": false
+				},
+				"full_name": "",
+				"id": 955,
+				"resource_uri": "/api/v1/state/955/",
+				"short_name": "",
+				"slug": "_63"
+			}
+		},
+		"created": "2009-07-04T03:28:04",
+		"dial": "94.5",
+		"genres": [{
+			"family": "Talk",
+			"id": 82,
+			"name": "Education",
+			"resource_uri": "/api/v1/genre/82/",
+			"slug": "Education"
+		}, {
+			"family": "Theme",
+			"id": 170,
+			"name": "Entertainment",
+			"resource_uri": "/api/v1/genre/170/",
+			"slug": "Entertainment"
+		}, {
+			"family": "Talk",
+			"id": 42,
+			"name": "News",
+			"resource_uri": "/api/v1/genre/42/",
+			"slug": "News"
+		}, {
+			"family": "Talk",
+			"id": 56,
+			"name": "Sports",
+			"resource_uri": "/api/v1/genre/56/",
+			"slug": "Sports"
+		}, {
+			"family": "Talk",
+			"id": 57,
+			"name": "Talk",
+			"resource_uri": "/api/v1/genre/57/",
+			"slug": "Talk"
+		}],
+		"id": 13333,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/42/47/42474c91552c9d9169fb0fac6e145c10.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/9b/3e/9b3e36c5f9e466b25523bb6c553e3085.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/d1/12/d11281f317ff05b12eb725436b0e5a21.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/b9/e8/b9e8d6f43ed26d3433c40b9e84ee0026.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/37/a4/37a4f2b3408071ffb4e0fb11919983dc.jpg"
+		},
+		"modified": "2020-03-05T22:05:10",
+		"name": "Radio Caraibes",
+		"popularity": 3240,
+		"slug": "Caraibes_FM",
+		"streams": [{
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 524638,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://ample-zeno-08.radiojar.com/54k0v7x14neuv?rj-ttl=4&rj-token=AAABZ0qbFaqhStQbQXhnfv-IZ3Gpv0xghbaId5odE5VPunj6ca4XKQ",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 90,
+			"name": "Los Angeles",
+			"resource_uri": "/api/v1/city/90/",
+			"slug": "Los_Angeles_CA",
+			"state": {
+				"country": {
+					"id": 153,
+					"is_state_divided": true,
+					"name": "United States",
+					"region_id": 1,
+					"resource_uri": "/api/v1/country/153/",
+					"slug": "United_States",
+					"use_state_in_city_name": true
+				},
+				"full_name": "California",
+				"id": 1,
+				"resource_uri": "/api/v1/state/1/",
+				"short_name": "CA",
+				"slug": "California"
+			}
+		},
+		"created": "2009-07-04T03:19:21",
+		"dial": "107.5",
+		"genres": [{
+			"family": "Pop",
+			"id": 6,
+			"name": "Adult Contemporary",
+			"resource_uri": "/api/v1/genre/6/",
+			"slug": "Adult_Contemporary"
+		}, {
+			"family": "Theme",
+			"id": 50,
+			"name": "Romantic",
+			"resource_uri": "/api/v1/genre/50/",
+			"slug": "Romantic"
+		}, {
+			"family": "Easy Listening",
+			"id": 90,
+			"name": "Soft",
+			"resource_uri": "/api/v1/genre/90/",
+			"slug": "Soft"
+		}, {
+			"family": "Language",
+			"id": 169,
+			"name": "Spanish",
+			"resource_uri": "/api/v1/genre/169/",
+			"slug": "Spanish"
+		}],
+		"id": 9000,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/c9/d2/c9d2dfb9a6da9c78045982d92c2db0f5.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/55/e1/55e1a07d65455cc9c5b509163d4be1a9.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/79/93/7993cea5cb1928721583c9d42b93ee6c.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/fe/f2/fef2de9ecfabada9af3ddfa42fd21de4.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/1c/9d/1c9dcf6f405e773df07c80033099b978.jpg"
+		},
+		"modified": "2020-03-01T11:07:11",
+		"name": "K-Love 107.5 - KLVE",
+		"popularity": 360,
+		"slug": "K_Love_KLVE",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 252954,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://35.230.99.65/univision-klvefmaac-ibc2?session-id=0dfc72108b18c2ffb786d27b4357f5c4",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 252954,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://34.83.176.63/univision-klvefmaac-ibc2?session-id=0dfc72108b18c2ffb786d27b4357f5c4",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 252954,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://35.247.52.219/univision-klvefmaac-ibc2?session-id=0dfc72108b18c2ffb786d27b4357f5c4",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 252955,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://35.230.99.65/univision-klvefmaac-ibc2?session-id=823ec805368255cc09921f6b4b54cf9b",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 252955,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://35.247.52.219/univision-klvefmaac-ibc2?session-id=823ec805368255cc09921f6b4b54cf9b",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 252955,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://35.233.140.157/univision-klvefmaac-ibc2?session-id=823ec805368255cc09921f6b4b54cf9b",
+			"works": true
+		}, {
+			"bitrate": 32,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 220641,
+			"isfile": false,
+			"last_test_result": "failed",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://34.220.6.115/univision-klvefmmp3-ibc2?session-id=989407354b97b194cd8661cb792a592a",
+			"works": true
+		}, {
+			"bitrate": 32,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 220641,
+			"isfile": false,
+			"last_test_result": "failed",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://34.219.106.184/univision-klvefmmp3-ibc2?session-id=989407354b97b194cd8661cb792a592a",
+			"works": true
+		}, {
+			"bitrate": 32,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 220641,
+			"isfile": false,
+			"last_test_result": "failed",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://65.19.131.168/univision-klvefmmp3-ibc2?session-id=989407354b97b194cd8661cb792a592a",
+			"works": true
+		}, {
+			"bitrate": 32,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 220641,
+			"isfile": false,
+			"last_test_result": "failed",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://34.209.91.78/univision-klvefmmp3-ibc2?session-id=989407354b97b194cd8661cb792a592a",
+			"works": true
+		}, {
+			"bitrate": 32,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 220641,
+			"isfile": false,
+			"last_test_result": "failed",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://65.19.131.150/univision-klvefmmp3-ibc2?session-id=989407354b97b194cd8661cb792a592a",
+			"works": true
+		}]
+	}, {
+		"band": "DAB",
+		"city": {
+			"id": 13869,
+			"name": "London",
+			"resource_uri": "/api/v1/city/13869/",
+			"slug": "London",
+			"state": {
+				"country": {
+					"id": 152,
+					"is_state_divided": true,
+					"name": "United Kingdom",
+					"region_id": 4,
+					"resource_uri": "/api/v1/country/152/",
+					"slug": "United_Kingdom",
+					"use_state_in_city_name": false
+				},
+				"full_name": "England",
+				"id": 1089,
+				"resource_uri": "/api/v1/state/1089/",
+				"short_name": "England",
+				"slug": "England"
+			}
+		},
+		"created": "2007-08-28T12:25:36",
+		"dial": "",
+		"genres": [{
+			"family": "Theme",
+			"id": 176,
+			"name": "Art",
+			"resource_uri": "/api/v1/genre/176/",
+			"slug": "Art"
+		}, {
+			"family": "Talk",
+			"id": 81,
+			"name": "Business",
+			"resource_uri": "/api/v1/genre/81/",
+			"slug": "Business"
+		}, {
+			"family": null,
+			"id": 238,
+			"name": "Documentaries",
+			"resource_uri": "/api/v1/genre/238/",
+			"slug": "Documentaries"
+		}, {
+			"family": "Talk",
+			"id": 42,
+			"name": "News",
+			"resource_uri": "/api/v1/genre/42/",
+			"slug": "News"
+		}, {
+			"family": "Talk",
+			"id": 56,
+			"name": "Sports",
+			"resource_uri": "/api/v1/genre/56/",
+			"slug": "Sports"
+		}, {
+			"family": "Region",
+			"id": 64,
+			"name": "World",
+			"resource_uri": "/api/v1/genre/64/",
+			"slug": "World"
+		}],
+		"id": 404,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/ff/24/ff24e439865a675e85dd83a13b8e15a2.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/74/34/74348bb0c2a1f5bec9fc9c3e53d1449c.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/4b/fd/4bfd44d22fa442ae6b49eb64a38f95b6.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/02/5b/025b53bf3c99261f1401bc71f7fe4ac2.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/fb/94/fb940150c4f0173d8b24eeb191c14356.jpg"
+		},
+		"modified": "2020-03-01T09:35:34",
+		"name": "BBC World Service",
+		"popularity": 180,
+		"slug": "BBC_World_Service",
+		"streams": [{
+			"bitrate": 56,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 176287,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 24,
+			"testing_enabled": true,
+			"url": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk",
+			"works": true
+		}, {
+			"bitrate": 56,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 176288,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 24,
+			"testing_enabled": true,
+			"url": "http://sc10.iad.llnw.net:80/stream/bbcwssc_mp1_ws-eieuk",
+			"works": true
+		}, {
+			"bitrate": 56,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 176289,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 24,
+			"testing_enabled": true,
+			"url": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup",
+			"works": true
+		}, {
+			"bitrate": 56,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 176290,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 24,
+			"testing_enabled": true,
+			"url": "http://sc12.iad.llnw.net:80/stream/bbcwssc_mp1_ws-eieuk_backup",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 1,
+			"name": "Buenos Aires",
+			"resource_uri": "/api/v1/city/1/",
+			"slug": "Buenos_Aires",
+			"state": {
+				"country": {
+					"id": 6,
+					"is_state_divided": true,
+					"name": "Argentina",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/6/",
+					"slug": "Argentina",
+					"use_state_in_city_name": false
+				},
+				"full_name": "Buenos Aires",
+				"id": 144,
+				"resource_uri": "/api/v1/state/144/",
+				"short_name": "Buenos Aires",
+				"slug": "Buenos_Aires"
+			}
+		},
+		"created": "2009-02-12T02:49:49",
+		"dial": "95.1",
+		"genres": [{
+			"family": "Talk",
+			"id": 42,
+			"name": "News",
+			"resource_uri": "/api/v1/genre/42/",
+			"slug": "News"
+		}, {
+			"family": "Talk",
+			"id": 57,
+			"name": "Talk",
+			"resource_uri": "/api/v1/genre/57/",
+			"slug": "Talk"
+		}, {
+			"family": "Pop",
+			"id": 60,
+			"name": "Top 40",
+			"resource_uri": "/api/v1/genre/60/",
+			"slug": "Top"
+		}, {
+			"family": "RnB",
+			"id": 83,
+			"name": "Urban",
+			"resource_uri": "/api/v1/genre/83/",
+			"slug": "Urban"
+		}],
+		"id": 1,
+		"logo": {},
+		"modified": "2020-03-05T17:39:14",
+		"name": "Metro 95.1",
+		"popularity": 5610,
+		"slug": "Metro_95.1",
+		"streams": [{
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 210030,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://mp3.metroaudio1.stream.avstreaming.net:7200/metro",
+			"works": true
+		}, {
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 252886,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://mp3.metroaudio1.stream.avstreaming.net:7200/metroapps",
+			"works": true
+		}]
+	}, {
+		"band": "AM",
+		"city": {
+			"id": 28738,
+			"name": "Timóteo",
+			"resource_uri": "/api/v1/city/28738/",
+			"slug": "Timoteo",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "Minas Gerais",
+				"id": 692,
+				"resource_uri": "/api/v1/state/692/",
+				"short_name": "MG",
+				"slug": "Minas_Gerais"
+			}
+		},
+		"created": "2012-10-24T14:23:51",
+		"dial": "650",
+		"genres": [{
+			"family": "Language",
+			"id": 185,
+			"name": "Brazilian",
+			"resource_uri": "/api/v1/genre/185/",
+			"slug": "Brazilian"
+		}, {
+			"family": "Language",
+			"id": 181,
+			"name": "Portuguese",
+			"resource_uri": "/api/v1/genre/181/",
+			"slug": "Portuguese"
+		}, {
+			"family": "Talk",
+			"id": 56,
+			"name": "Sports",
+			"resource_uri": "/api/v1/genre/56/",
+			"slug": "Sports"
+		}, {
+			"family": "Talk",
+			"id": 57,
+			"name": "Talk",
+			"resource_uri": "/api/v1/genre/57/",
+			"slug": "Talk"
+		}],
+		"id": 55052,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/7a/14/7a14066b322bc0836e73556714ba8b35.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/95/4f/954f329d22be3b8ba17585eeb75ca56b.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/df/0b/df0bd5bd74e4fd1902bbd878547b4179.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/f4/d4/f4d4101fc5e999bbe09c82855a9eb994.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/be/51/be5169a3e5619130ed9ccdf07e6c805d.jpg"
+		},
+		"modified": "2020-03-01T16:12:55",
+		"name": "Rádio Itatiaia",
+		"popularity": 0,
+		"slug": "Radio_Itatiaia_AM_Vale_do_Aco",
+		"streams": [{
+			"bitrate": 56,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 228391,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 22,
+			"testing_enabled": true,
+			"url": "http://audio.flaresoft.com.br:9922/stream/;",
+			"works": true
+		}, {
+			"bitrate": 56,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 403376,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 22,
+			"testing_enabled": true,
+			"url": "http://audio.flaresoft.com.br:9922/;",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 2,
+			"name": "São Paulo",
+			"resource_uri": "/api/v1/city/2/",
+			"slug": "Sao_Paulo",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "São Paulo",
+				"id": 411,
+				"resource_uri": "/api/v1/state/411/",
+				"short_name": "SP",
+				"slug": "Sao_Paulo"
+			}
+		},
+		"created": "2007-09-10T19:28:26",
+		"dial": "106.3",
+		"genres": [{
+			"family": "Pop",
+			"id": 6,
+			"name": "Adult Contemporary",
+			"resource_uri": "/api/v1/genre/6/",
+			"slug": "Adult_Contemporary"
+		}, {
+			"family": null,
+			"id": 220,
+			"name": "Music",
+			"resource_uri": "/api/v1/genre/220/",
+			"slug": "Music"
+		}, {
+			"family": "Pop",
+			"id": 44,
+			"name": "Pop",
+			"resource_uri": "/api/v1/genre/44/",
+			"slug": "Pop"
+		}, {
+			"family": "Rock",
+			"id": 49,
+			"name": "Rock",
+			"resource_uri": "/api/v1/genre/49/",
+			"slug": "Rock"
+		}, {
+			"family": "Pop",
+			"id": 60,
+			"name": "Top 40",
+			"resource_uri": "/api/v1/genre/60/",
+			"slug": "Top"
+		}],
+		"id": 445,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/c8/a2/c8a265911093b9ccbbdb0e679e7496b9.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/e1/db/e1dbbf2fc125e4380ff383376d19d309.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/d0/cb/d0cb8112b1612c470b271f8161ac547c.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/25/4a/254aaee18488c82770fb859b6d34b382.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/30/17/3017e25e918b653b8b1b9901bb53cf19.jpg"
+		},
+		"modified": "2020-03-01T09:36:04",
+		"name": "Mix FM Sao Paulo",
+		"popularity": 60,
+		"slug": "Mix_FM_BR",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 545366,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://mixaac.crossradio.com.br:10000/stream/1;?424904.5235575415/;",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 2,
+			"name": "São Paulo",
+			"resource_uri": "/api/v1/city/2/",
+			"slug": "Sao_Paulo",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "São Paulo",
+				"id": 411,
+				"resource_uri": "/api/v1/state/411/",
+				"short_name": "SP",
+				"slug": "Sao_Paulo"
+			}
+		},
+		"created": "2010-01-24T12:00:11",
+		"dial": "89.1",
+		"genres": [{
+			"family": "Alternative",
+			"id": 13,
+			"name": "Alternative",
+			"resource_uri": "/api/v1/genre/13/",
+			"slug": "Alternative"
+		}, {
+			"family": "Rock",
+			"id": 259,
+			"name": "Hard Rock",
+			"resource_uri": "/api/v1/genre/259/",
+			"slug": "Hard_Rock"
+		}, {
+			"family": "Rock",
+			"id": 33,
+			"name": "Indie",
+			"resource_uri": "/api/v1/genre/33/",
+			"slug": "Indie"
+		}, {
+			"family": "Rock",
+			"id": 41,
+			"name": "Metal",
+			"resource_uri": "/api/v1/genre/41/",
+			"slug": "Metal"
+		}],
+		"id": 36870,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/57/55/57554938efecd97349338fd6e9a9fd73.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/89/d1/89d16ec50e785caafc5211586125019d.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/0d/f4/0df4011f4f63e208707177c069a33cda.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/21/0f/210f25eaef495c79205c90d956fbb420.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/68/f3/68f32a11f75058a929ec8feda92191dd.jpg"
+		},
+		"modified": "2020-03-01T14:47:11",
+		"name": "89 A Rádio Rock",
+		"popularity": 30,
+		"slug": "Radio_89_FM",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 600319,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://ice.fabricahost.com.br/89aradiorocksp?compat=1",
+			"works": true
+		}]
+	}, {
+		"band": "AM",
+		"city": {
+			"id": 1035,
+			"name": "Monterrey",
+			"resource_uri": "/api/v1/city/1035/",
+			"slug": "Monterrey_NL",
+			"state": {
+				"country": {
+					"id": 96,
+					"is_state_divided": true,
+					"name": "Mexico",
+					"region_id": 1,
+					"resource_uri": "/api/v1/country/96/",
+					"slug": "Mexico",
+					"use_state_in_city_name": true
+				},
+				"full_name": "Nuevo León",
+				"id": 93,
+				"resource_uri": "/api/v1/state/93/",
+				"short_name": "NL",
+				"slug": "Nuevo_Leon"
+			}
+		},
+		"created": "2009-07-04T03:21:16",
+		"dial": "1050",
+		"genres": [{
+			"family": "Latin",
+			"id": 200,
+			"name": "Grupera",
+			"resource_uri": "/api/v1/genre/200/",
+			"slug": "Grupera"
+		}, {
+			"family": "Language",
+			"id": 173,
+			"name": "Mexican",
+			"resource_uri": "/api/v1/genre/173/",
+			"slug": "Mexican"
+		}, {
+			"family": "Latin",
+			"id": 174,
+			"name": "Ranchera",
+			"resource_uri": "/api/v1/genre/174/",
+			"slug": "Ranchera"
+		}],
+		"id": 9492,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/28/08/2808121aa9b23e56a8e576e6b180ccc3.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/f5/0e/f50e764eb669b44d5b1b2949f9aa34f6.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/4c/e7/4ce74f4c16e4913791a4771a378d3793.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/35/98/3598ac548c735386c9b5781690c47796.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/d7/85/d785f4db3ed6aa268234408993ced3b9.jpg"
+		},
+		"modified": "2020-03-01T11:13:45",
+		"name": "La Ranchera de Monterrey - XEG",
+		"popularity": 60,
+		"slug": "La_Ranchera_XEG",
+		"streams": [{
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 557582,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://162.212.56.146:9410/stream/;",
+			"works": true
+		}, {
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 557582,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://51.254.170.250:9308/stream/;",
+			"works": true
+		}, {
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 557582,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://67.23.252.145:9310/stream/;",
+			"works": true
+		}, {
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 557583,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://streamingcwsradio20.com:9410/stream/;",
+			"works": true
+		}, {
+			"bitrate": 128,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 557625,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://streamingcwsradio20.com:9410/live/;",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 2,
+			"name": "São Paulo",
+			"resource_uri": "/api/v1/city/2/",
+			"slug": "Sao_Paulo",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "São Paulo",
+				"id": 411,
+				"resource_uri": "/api/v1/state/411/",
+				"short_name": "SP",
+				"slug": "Sao_Paulo"
+			}
+		},
+		"created": "2007-09-11T08:36:52",
+		"dial": "98.5",
+		"genres": [{
+			"family": "Dance",
+			"id": 4,
+			"name": "Dance",
+			"resource_uri": "/api/v1/genre/4/",
+			"slug": "Dance"
+		}, {
+			"family": "Pop",
+			"id": 44,
+			"name": "Pop",
+			"resource_uri": "/api/v1/genre/44/",
+			"slug": "Pop"
+		}, {
+			"family": "Rock",
+			"id": 49,
+			"name": "Rock",
+			"resource_uri": "/api/v1/genre/49/",
+			"slug": "Rock"
+		}],
+		"id": 447,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/c7/3f/c73f1bedaf0e2ed2b4b1a9140b36de91.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/96/04/96046a10bd8c085cf7c838d6f5ee7112.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/30/b5/30b5c51159b45f91f42a41f60d85d3ec.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/e8/7e/e87ed3691c53f80a626a8b23baf2cb64.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/44/70/447098e2e51198dc3476313e970d9f4c.jpg"
+		},
+		"modified": "2020-03-01T09:36:06",
+		"name": "Metropolitana FM",
+		"popularity": 0,
+		"slug": "Metropolitana_FM",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 530378,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 32,
+			"testing_enabled": true,
+			"url": "http://ice.paineldj3.com.br:8004/live",
+			"works": true
+		}, {
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 530380,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 32,
+			"testing_enabled": true,
+			"url": "http://ice.paineldj3.com.br:8004/stream",
+			"works": true
+		}]
+	}, {
+		"band": "Web",
+		"city": {
+			"id": 13674,
+			"name": "",
+			"resource_uri": "/api/v1/city/13674/",
+			"slug": "_48",
+			"state": {
+				"country": {
+					"id": 67,
+					"is_state_divided": true,
+					"name": "India",
+					"region_id": 6,
+					"resource_uri": "/api/v1/country/67/",
+					"slug": "India",
+					"use_state_in_city_name": true
+				},
+				"full_name": "",
+				"id": 960,
+				"resource_uri": "/api/v1/state/960/",
+				"short_name": "",
+				"slug": "_68"
+			}
+		},
+		"created": "2014-06-04T13:02:27",
+		"dial": "",
+		"genres": [{
+			"family": "Indian",
+			"id": 127,
+			"name": "Bollywood",
+			"resource_uri": "/api/v1/genre/127/",
+			"slug": "Bollywood"
+		}, {
+			"family": "Pop",
+			"id": 65,
+			"name": "Classics",
+			"resource_uri": "/api/v1/genre/65/",
+			"slug": "Classics"
+		}, {
+			"family": "Indian",
+			"id": 32,
+			"name": "India",
+			"resource_uri": "/api/v1/genre/32/",
+			"slug": "India"
+		}, {
+			"family": "Language",
+			"id": 159,
+			"name": "Indian",
+			"resource_uri": "/api/v1/genre/159/",
+			"slug": "Indian"
+		}, {
+			"family": "Pop",
+			"id": 43,
+			"name": "Oldies",
+			"resource_uri": "/api/v1/genre/43/",
+			"slug": "Oldies"
+		}, {
+			"family": "Pop",
+			"id": 44,
+			"name": "Pop",
+			"resource_uri": "/api/v1/genre/44/",
+			"slug": "Pop"
+		}],
+		"id": 93891,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/b3/4f/b34f6a17eaf1abf45926c49c35b941d8.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/a3/9c/a39ca3128a23ad1c33d9b81b47661c24.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/f4/be/f4be81545123bcf59e62ec586a02fcbc.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/9c/48/9c483562635e327f479afdadb0b04ac5.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/da/3a/da3a2310c591073d911f99aaac9c1543.jpg"
+		},
+		"modified": "2020-03-01T18:30:51",
+		"name": "Hindi Desi Bollywood Evergreen Hits",
+		"popularity": 30,
+		"slug": "Hindi_Desi_Bollywood_Evergreen_Hits",
+		"streams": [{
+			"bitrate": 32,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 607955,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://51.68.155.17:8220/stream/;",
+			"works": true
+		}, {
+			"bitrate": 32,
+			"codec": "mp3",
+			"container": "audio",
+			"content_type": "audio/mpeg",
+			"enabled": true,
+			"format": "MPEG Layer-3",
+			"id": 465485,
+			"isfile": false,
+			"last_test_result": "failed",
+			"media_type": "audio",
+			"protocol": "shoutcast",
+			"rate": 16,
+			"testing_enabled": true,
+			"url": "http://192.240.102.133:11454/stream/;",
+			"works": true
+		}]
+	}, {
+		"band": "AM",
+		"city": {
+			"id": 1,
+			"name": "Buenos Aires",
+			"resource_uri": "/api/v1/city/1/",
+			"slug": "Buenos_Aires",
+			"state": {
+				"country": {
+					"id": 6,
+					"is_state_divided": true,
+					"name": "Argentina",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/6/",
+					"slug": "Argentina",
+					"use_state_in_city_name": false
+				},
+				"full_name": "Buenos Aires",
+				"id": 144,
+				"resource_uri": "/api/v1/state/144/",
+				"short_name": "Buenos Aires",
+				"slug": "Buenos_Aires"
+			}
+		},
+		"created": "2009-02-12T02:49:49",
+		"dial": "710",
+		"genres": [{
+			"family": "Talk",
+			"id": 42,
+			"name": "News",
+			"resource_uri": "/api/v1/genre/42/",
+			"slug": "News"
+		}, {
+			"family": "Talk",
+			"id": 57,
+			"name": "Talk",
+			"resource_uri": "/api/v1/genre/57/",
+			"slug": "Talk"
+		}],
+		"id": 23,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/4d/7f/4d7f1e8699991bb3b8eaa34e86ca4716.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/2e/70/2e70c12b9868fd802dc1bcff607489ea.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/45/c9/45c9c00862efd9e9e8ea5f1a94661ffd.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/e5/55/e555ade7d235593f388265f90c2dc091.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/68/a4/68a49467d2c3356c98337b9c6e1744e8.jpg"
+		},
+		"modified": "2020-03-01T09:31:57",
+		"name": "Radio 10",
+		"popularity": 450,
+		"slug": "Radio",
+		"streams": [{
+			"bitrate": 98,
+			"codec": "aac",
+			"container": null,
+			"content_type": "audio/x-aac",
+			"enabled": true,
+			"format": null,
+			"id": 505421,
+			"isFile": false,
+			"last_test_result": "worked",
+			"media_type": null,
+			"protocol": "hls",
+			"testing_enabled": true,
+			"url": "http://s6.stweb.tv/radio10/live/playlist.m3u8",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 2,
+			"name": "São Paulo",
+			"resource_uri": "/api/v1/city/2/",
+			"slug": "Sao_Paulo",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "São Paulo",
+				"id": 411,
+				"resource_uri": "/api/v1/state/411/",
+				"short_name": "SP",
+				"slug": "Sao_Paulo"
+			}
+		},
+		"created": "2007-09-10T18:39:42",
+		"dial": "101.7",
+		"genres": [{
+			"family": "Pop",
+			"id": 6,
+			"name": "Adult Contemporary",
+			"resource_uri": "/api/v1/genre/6/",
+			"slug": "Adult_Contemporary"
+		}, {
+			"family": "Talk",
+			"id": 42,
+			"name": "News",
+			"resource_uri": "/api/v1/genre/42/",
+			"slug": "News"
+		}, {
+			"family": "Pop",
+			"id": 44,
+			"name": "Pop",
+			"resource_uri": "/api/v1/genre/44/",
+			"slug": "Pop"
+		}, {
+			"family": "Rock",
+			"id": 49,
+			"name": "Rock",
+			"resource_uri": "/api/v1/genre/49/",
+			"slug": "Rock"
+		}, {
+			"family": "Region",
+			"id": 64,
+			"name": "World",
+			"resource_uri": "/api/v1/genre/64/",
+			"slug": "World"
+		}],
+		"id": 444,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/95/8d/958d896bd409f84fa391fc67286fea96.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/e2/1a/e21a1cd25dda63880a1c52c153957444.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/22/69/2269a7cab3c825cdb1173dcb1ba46c9f.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/fe/8b/fe8bfcfb309b7ab2122b1cc3e06e35c1.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/51/3f/513fb5fd03437643d449815c1901ae4a.jpg"
+		},
+		"modified": "2020-03-06T16:10:25",
+		"name": "Alpha FM",
+		"popularity": 150,
+		"slug": "Alpha_FM",
+		"streams": [{
+			"bitrate": 0,
+			"codec": "aac",
+			"container": "adts",
+			"content_type": "audio/aacp",
+			"enabled": true,
+			"format": "UNKNOWN: MP4A",
+			"id": 597026,
+			"isfile": false,
+			"last_test_result": "worked",
+			"media_type": "audio",
+			"protocol": "icecast",
+			"rate": 44,
+			"testing_enabled": true,
+			"url": "http://ice.fabricahost.com.br/alphafm1017?compat=1",
+			"works": true
+		}]
+	}, {
+		"band": "FM",
+		"city": {
+			"id": 1260,
+			"name": "Belo Horizonte",
+			"resource_uri": "/api/v1/city/1260/",
+			"slug": "Belo_Horizonte",
+			"state": {
+				"country": {
+					"id": 22,
+					"is_state_divided": true,
+					"name": "Brazil",
+					"region_id": 3,
+					"resource_uri": "/api/v1/country/22/",
+					"slug": "Brazil",
+					"use_state_in_city_name": false
+				},
+				"full_name": "Minas Gerais",
+				"id": 692,
+				"resource_uri": "/api/v1/state/692/",
+				"short_name": "MG",
+				"slug": "Minas_Gerais"
+			}
+		},
+		"created": "2009-07-04T03:21:41",
+		"dial": "102.1",
+		"genres": [{
+			"family": "Language",
+			"id": 185,
+			"name": "Brazilian",
+			"resource_uri": "/api/v1/genre/185/",
+			"slug": "Brazilian"
+		}, {
+			"family": "Pop",
+			"id": 60,
+			"name": "Top 40",
+			"resource_uri": "/api/v1/genre/60/",
+			"slug": "Top"
+		}],
+		"id": 9840,
+		"logo": {
+			"150x150": "https://static-media.streema.com/media/cache/1f/e3/1fe32d3f2c90ab48f39038afbb963125.jpg",
+			"48x48": "https://static-media.streema.com/media/cache/4f/46/4f469d5d0362a31b359d196dd08c7614.jpg",
+			"600x600": "https://static-media.streema.com/media/cache/5c/c7/5cc7b56e446e5d43212d3683e8ffa00b.jpg",
+			"75x75": "https://static-media.streema.com/media/cache/94/22/942202c715f3d06e500add2b6dad55f3.jpg",
+			"88x88": "https://static-media.streema.com/media/cache/d5/d6/d5d6f70a8cb701f0a6039cc481e5c75f.jpg"
+		},
+		"modified": "2020-03-01T11:17:33",
+		"name": "Radio BH FM",
+		"popularity": 30,
+		"slug": "Radio_BH_FM",
+		"streams": [{
+			"bitrate": null,
+			"codec": null,
+			"container": null,
+			"content_type": "application/x-mpegURL",
+			"enabled": true,
+			"format": null,
+			"id": 573510,
+			"isFile": false,
+			"last_test_result": "worked",
+			"media_type": null,
+			"protocol": "hls",
+			"testing_enabled": true,
+			"url": "http://medias.sgr.globo.com/hls/aBHFM/aBHFM.m3u8",
+			"works": true
+		}]
+	}],
+	"debug": {
+		"lang": "en",
+		"country": "",
+		"city": "",
+		"compat": "android"
+	}
+}
